@@ -3,8 +3,8 @@ default: &default
 
 development:
   <<: *default
-  database: rails-has-many-belongs-to-development
+  database: rails-has-many-belongs-to-collection-select-development
 
 test:
   <<: *default
-  database: rails-has-many-belongs-to-test
+  database: rails-has-many-belongs-to-collection-select-test
